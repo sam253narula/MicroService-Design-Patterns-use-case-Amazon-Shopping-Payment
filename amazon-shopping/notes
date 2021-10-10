@@ -1,0 +1,5 @@
+// If u get ECManager error on application start, refer below
+https://stackoverflow.com/questions/59517989/spring-cloud-aws-sqs-fails-to-connect-to-service-endpoint-locally
+
+refer my old project:
+https://github.com/sam253narula/springboot-aws-sns
