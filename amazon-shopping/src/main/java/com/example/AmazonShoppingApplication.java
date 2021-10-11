@@ -8,11 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @author Samarth Narula
  *
  */
-
-@SpringBootApplication(exclude = {
-		org.springframework.cloud.aws.autoconfigure.context.ContextInstanceDataAutoConfiguration.class,
-		org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration.class,
-		org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration.class })
+@SpringBootApplication
 @EnableEurekaClient
 public class AmazonShoppingApplication {
 
